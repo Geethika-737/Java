@@ -1,0 +1,93 @@
+FEATURES OF JAVA
+Java programming language was initially developed to work on embedded systems, 
+settop boxes, television. So, by requirements it was initially designed to work on varied 
+platforms. Over the period of multiple years, Java evolved to become one of the most 
+popular languages used to develop internet-based applications.
+Following are the major features of the Java language.
+➢ Simple
+➢ Object-Oriented
+➢ Portable
+➢ Platform Independent
+➢ Secured
+➢ Robust
+➢ Interpreted
+➢ Multithreaded
+➢ High Performance
+➢ Distributed
+➢ Dynamic
+1)Simple:
+• Java is designed to be easy to learn.
+• Java inherits many features of c, c++ .
+• It does not have complex features like pointers, operator overloading, 
+multiple inheritance etc.
+• It automatically provides garbage collection.
+• Java makes developers life easy.
+2)Object-Oriented:
+• Java is an object-oriented programming language.
+• Object-oriented means we organize our software as a combination of 
+distinct types of objects that incorporate both data and behavior.
+• As a language that has the Object-Oriented feature, Java supports the 
+following fundamental concepts of OOPSa) Object
+b) Class
+c) Method
+d) Polymorphism
+e) Inheritance
+f) Encapsulation
+g) Abstraction
+h) Instance
+3)Portable:
+• Java is portable because it facilitates you to carry the Java bytecode to 
+any platform. It doesn't require any implementation.
+• It was particularly useful for internet-based application where 
+platforms varied from place to place, and same code base can be used 
+across multiple platforms.
+• So, collaboration between developers was easy across multiple 
+locations.
+4)Platform Independent:
+• Java is platform independent because it is different from other 
+languages like C, C++, etc. which are compiled into platform specific 
+machines while Java is a write once, run anywhere language.
+• A platform is the hardware or software environment in which a 
+program runs.
+• Java code is compiled by the compiler and converted into bytecode. 
+This bytecode is a platform-independent code because it can be run on 
+multiple platforms.
+5)Secured:
+• Java is best known for its security.
+• We can develop virus-free systems. 
+• Java is secured because:
+i) No explicit pointer
+j) Java Programs run inside a virtual machine sandbox
+6)Robust:
+• Java uses strong memory management.
+• There is a lack of pointers that avoids security problems.
+• Java provides automatic garbage collection which runs on the Java Virtual 
+Machine to get rid of objects which are not being used by a Java application 
+anymore.
+• There are exception handling and the type checking mechanism in Java. All 
+these points make Java robust.
+7)Multithreaded:
+• A thread is like a separate program, executing concurrently. We can 
+write Java programs that deal with many tasks at once by defining 
+multiple threads. 
+• The main advantage of multi-threading is that it doesn't occupy 
+memory for each thread. It shares a common memory area. 
+• Threads are important for multi-media, Web applications, etc.
+8)High Performance:
+• Java is faster than other traditional interpreted programming languages 
+because Java bytecode is "close" to native code.
+• It is still a little bit slower than a compiled language (e.g., C++). 
+• Java is an interpreted language that is why it is slower than compiled 
+languages, e.g., C, C++, etc.
+• With the use of Just-In-Time compilers, Java enables high performance. 
+• JVM uses JIT compiler to improves the execution time of the program.
+9)Distributed:
+• Java is distributed because it facilitates users to create distributed 
+applications in Java.
+• This feature of Java makes us able to access files by calling the 
+methods from any machine on the internet.
+10)Dynamic:
+• Java is a dynamic language.
+• It supports the dynamic loading of classes. It means classes are 
+loaded on demand.
+• It supports functions from its native languages, i.e., C and C++.
