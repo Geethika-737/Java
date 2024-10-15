@@ -1,0 +1,13 @@
+import java.io.*;
+public class Main{
+    public static void main(String args[]){
+        String str="Geethika";
+        System.out.printf("\nThe string value is: %s\n",str);
+        int x=512;
+        System.out.printf("\nThe integer value is: %d\n",x);
+        double f=5.246718;
+        System.out.printf("Thedouble value is:%f\n",f);
+        System.out.printf("After formatting to specific width:the value is:%.4f\n",f);
+        System.out.printf("After formatting to right margin the value is:%10.2f\n",f);
+    }
+}
