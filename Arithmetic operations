@@ -1,0 +1,12 @@
+import java.io.*;
+class main{
+    public static void main(String[] args)
+    {
+        int a = 24, b = 7;
+        System.out.println("a + b = " + (a+b));
+        System.out.println("a - b = " + (a-b));
+        System.out.println("a * b = " + (a*b));
+        System.out.println("a % b = " + (a%b));
+        System.out.println("a / b = " + (a/b));
+    }
+}
