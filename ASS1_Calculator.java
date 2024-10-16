@@ -28,3 +28,12 @@ default:System.out.println("Enter a correct operator.");
 }
 }
 }
+output:
+Enter 2 integers and operator to perform Arthimatic operations
+Enter 1st number:
+4
+Enter 2nd number:
+6
+Enter Operator:
++
+Addition 10
