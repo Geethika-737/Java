@@ -1,0 +1,18 @@
+import java.io.*;
+class GFG {
+    static int sumDigits(int no)
+    {
+        if (no == 0) {
+            return 0;
+        }
+        return (no % 10) + sumDigits(no / 10);
+    }
+    // Driver code
+    public static void main(String[] args)
+    {
+        // Function call
+        System.out.println(sumDigits(687));
+    }
+}
+output:
+21
