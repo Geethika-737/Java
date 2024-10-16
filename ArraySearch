@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+class ArraySearch{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int pos=-1;
+    System.out.println("Enter no.of elements or array");
+    int n=sc.nextInt();
+    int arr[]=new int[n];
+    System.out.println("Enter"+n+"values");
+    for(int i=0;i<n;i++){
+      arr[i]=sc.nextInt();
+    }
+    System.out.println("Enter the key elements to search");
+    int key=sc.nextInt();
+    for(int i=0;i<n;i++){
+      if(arr[i]==key){
+        pos=i+1;
+      }
+    }
+    if(pos==-1){
+      System.out.println(key+"Elements not found");
+    }else{
+      System.out.println(key+"Element found at "+pos);
+    }
+  }
+}
+output:
+Enter no.of elements or array
+6
+Enter 6 values
+1 2 3 4 5 6
+Enter the key elements to search
+5
+5 Element found at 5
