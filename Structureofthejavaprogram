@@ -1,0 +1,13 @@
+import java.io.*;
+public class Helloworld extends Object{
+    private String greetings="Helloworld";
+    public void greet(){
+        System.out.println(greetings);
+    }
+    public static void main(String args[]){
+            Helloworld hw=new Helloworld();
+            hw.greet();
+    }
+}
+output
+Helloworld
