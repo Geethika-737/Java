@@ -21,3 +21,11 @@ public class Main{
   }
  }
 }
+output
+Enter an integer:
+565
+565is a palindrome
+Enter an integer:
+236
+236is not a palindrome
+
