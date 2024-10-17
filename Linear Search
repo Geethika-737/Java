@@ -30,3 +30,5 @@ class LinearSearch {
             System.out.println("Element found at position " + index); 
     } 
 } 
+output
+Element found at position 1
