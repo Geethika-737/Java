@@ -23,3 +23,12 @@ class FibRec {
 		}
 	}
 }
+output
+Enter n value
+5
+The Fibonacci series is
+0
+1
+1
+2
+3
