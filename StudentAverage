@@ -28,5 +28,10 @@ public class Main {
         }
         }
         }
+output
+Enter marks of 5 students
+90 95 92 89 78
+Average of the student is88.8
+Student passed with distinction
 
         
