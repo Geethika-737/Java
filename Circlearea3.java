@@ -19,7 +19,7 @@ class Circlearea3
 	    Scanner sc=new Scanner(System.in);
 	    Circlearea3 ob1=new Circlearea3();
 	    Circlearea3 ob2=new Circlearea3();
-	    System.out.println("Enter redius of two circles:");
+	    System.out.println("Enter radius of two circles:");
 	    double radius1=sc.nextDouble();
 	    double radius2=sc.nextDouble();
 	    ob1.setCircle(radius1);
@@ -28,3 +28,8 @@ class Circlearea3
 		System.out.println("Area of 2nd circle is"+ob2.area());
 	}
 }
+output
+Enter radius of two circles:
+2 4
+Area of 1st circle is12.571428571428571
+Area of 2nd circle is50.285714285714285
