@@ -23,3 +23,7 @@ class Circlearea
 		        System.out.println("Area of the circle"+ca.area());
 	        }
 	    }
+output
+Enter centre(x,y) of the circle:
+2 4
+Area of the circle62.85714285714286
