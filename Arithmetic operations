@@ -1,12 +1,18 @@
 import java.io.*;
-class main{
-    public static void main(String[] args)
-    {
+
+class Main {
+    public static void main(String[] args) {
         int a = 24, b = 7;
-        System.out.println("a + b = " + (a+b));
-        System.out.println("a - b = " + (a-b));
-        System.out.println("a * b = " + (a*b));
-        System.out.println("a % b = " + (a%b));
-        System.out.println("a / b = " + (a/b));
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a % b = " + (a % b));
+        System.out.println("a / b = " + ((double) a / b)); 
     }
 }
+output
+a + b = 31
+a - b = 17
+a * b = 168
+a % b = 3
+a / b = 3.4285714285714284
