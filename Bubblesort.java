@@ -1,31 +1,38 @@
 import java.io.*;
 import java.util.*;
-class Bubblesort{
-public static void main(String args[]){
-Scanner sc=new Scanner(System.in);
-System.out.println("Enter size of the array:");
-int n=sc.nextInt();
-int arr[]=new int[n];
-System.out.println("Enter"+n+"elements into the array");
-for(int i=0;i<n;i++)
-{
-arr[i]=sc.nextInt();
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no.of elements in array");
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        System.out.println("Enter n values into array ");
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        for(int i=0;i<n;i++){
+            for( int j=0;j<n-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+            }
+        }
+        System.out.println("After performing bubble sort the elements of the array are:");
+        for(int i=0;i<n;i++){
+            System.out.println(arr[i]);
+        }
+    }
 }
-for(int i=0;i<n;i++)
-{
-for(int j=i+1;j<n;j++)
-{
-if(arr[i]>arr[j])
-{
-int temp=arr[i];
-arr[i]=arr[j];
-arr[j]=temp;
-}
-}
-}
-System.out.println("After sorting the elements in array are:");
-for(int i=0;i<n;i++){
-System.out.println(arr[i]+" ");
-}
-}
-}
+output
+Enter the no.of elements in array
+5
+Enter n values into array 
+25 33 58 45 37
+After performing bubble sort the elements of the array are:
+25
+33
+37
+45
+58
