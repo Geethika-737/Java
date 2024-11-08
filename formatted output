@@ -11,3 +11,10 @@ public class Main{
         System.out.printf("After formatting to right margin the value is:%10.2f\n",f);
     }
 }
+output
+The string value is: Geethika
+
+The integer value is: 512
+Thedouble value is:5.246718
+After formatting to specific width:the value is:5.2467
+After formatting to right margin the value is:      5.25
