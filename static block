@@ -9,3 +9,6 @@ import java.io.*;
     }
     
 }
+output
+This is the static block
+inside main method
