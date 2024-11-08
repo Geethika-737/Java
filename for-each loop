@@ -3,7 +3,7 @@ public class Main{
     public static void main(String args[]){
         int arr[]={10,20,30,40,50};
  //       int arr[]=new arr[5];
-        String args1[]={"Sasi","Meghana","CIC"};
+        String args1[]={"Sasi","Geethika","CIC"};
         System.out.println("The elements in the array are");
         for(int i:arr) {
         System.out.println(i+"");
@@ -14,3 +14,14 @@ public class Main{
     }
   }
 }
+output
+The elements in the array are
+10
+20
+30
+40
+50
+Student details are
+Sasi
+Geethika
+CIC
