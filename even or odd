@@ -13,3 +13,7 @@ import java.util.Scanner;
         }
     }
 }
+output
+Enter an integer to check it is Even or Odd
+5
+5 is an Odd number
