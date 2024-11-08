@@ -37,3 +37,11 @@ public class Main {
         System.out.println("Area of first circle with radius 7.0 is: " + c2.area(7.0));
     }
 }
+output
+After default constructor, Area of first circle is: 0.0
+Enter radius of first circle:
+5
+Now area of first circle is: 78.53981633974483
+Area of second circle is: 243.28493509399362
+Area of third circle is: 243.28493509399362
+Area of first circle with radius 7.0 is: 153.93804002589985
