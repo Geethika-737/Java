@@ -29,3 +29,8 @@ public class Main{
     }
   }
 }
+output
+Enter number from 0 to 5:
+4
+you entered four
+
