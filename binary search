@@ -35,9 +35,10 @@ public class Main {
     }
 }
 output
+Enter number of elements of array: 
+5
 Enter 5 values: 
 10 20 30 40 50
 Enter the key element to search: 
 20
 Element found at position 2 in the array.
-
